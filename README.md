@@ -15,7 +15,7 @@ The first two terms indicate the recursive calls, whereas the last term is for t
 Thus, based on the above concept the following three cases for time complexity arise:
 
  1. Worst Case:
-The named situation arises as a result of the fact that one selects either the smallest or the largest value as the pivot. Thus, considering the said situation, the worst case would be the situation wherein the array elements are already arranged in either increasing or decreasing order. Thus, on solving the actual recurrence relation, the complexity results out to be O(n2). This means that for the array to be completely sorted one needs to compare almost all the elements.
+The named situation arises as a result of the fact that one selects either the smallest or the largest value as the pivot. Thus, considering the said situation, the worst case would be the situation wherein the array elements are already arranged in either increasing or decreasing order. Thus, on solving the actual recurrence relation, the complexity results out to be O(n^2). This means that for the array to be completely sorted one needs to compare almost all the elements.
  
  2. Best Case:
  The best case would be the one where the pivot selected is the middle element. Thus, the efforts reduce down to half altogether. Thus the complexity expression gives the result as O(nlogn).
